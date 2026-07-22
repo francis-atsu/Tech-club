@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Tech Innovation Club</title>
+    <link rel="stylesheet" href="styles.css">
+<base target="_blank">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="logo">
+                <div class="logo-icon">⚡</div>
+                <span>Tech Innovation Club</span>
+            </a>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="events.html">Events</a></li>
+                <li><a href="contact.html" class="active">Contact</a></li>
+            </ul>
+            <div class="menu-toggle" id="menuToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section style="padding-top: 140px; padding-bottom: 40px; text-align: center;">
+        <div class="section-header">
+            <span class="section-label">Get in Touch</span>
+            <h2>Contact <span>Us</span></h2>
+            <p>Have a question, idea, or want to collaborate? We'd love to hear from you.</p>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section" style="padding-top: 20px;">
+        <div class="contact-grid">
+            <!-- Contact Info -->
+            <div class="contact-info">
+                <h3>Let's Build Something Amazing Together</h3>
+                <p>Whether you're interested in joining the club, sponsoring an event, or collaborating on a project, we're here to help. Reach out through any of the channels below.</p>
+
+                <div class="contact-details">
+                    <div class="contact-item">
+                        <div class="icon">📧</div>
+                        <div>
+                            <strong>Email</strong>
+                            <span>hello@techinnovation.club</span>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="icon">📍</div>
+                        <div>
+                            <strong>Location</strong>
+                            <span>Ahomka Drv, Achimota School</span>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="icon">⏰</div>
+                        <div>
+                            <strong>Office Hours</strong>
+                            <span>Mon - Fri: 10:00 AM - 6:00 PM</span>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="icon">💬</div>
+                        <div>
+                            <strong>Discord</strong>
+                            <span>discord.gg/techinnovation</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div style="margin-top: 40px;">
+                    <h3 style="margin-bottom: 16px;">Follow Us</h3>
+                    <div class="footer-social" style="justify-content: flex-start;">
+                        <a href="#">𝕏</a>
+                        <a href="#">in</a>
+                        <a href="#">GH</a>
+                        <a href="#">YT</a>
+                        <a href="#">IG</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Contact Form -->
+            <div class="contact-form">
+                <h3 style="margin-bottom: 24px; font-size: 1.3rem;">Send Us a Message</h3>
+                <form>
+                    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 16px;">
+                        <div class="form-group">
+                            <label for="firstName">First Name</label>
+                            <input type="text" id="firstName" placeholder="John" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="lastName">Last Name</label>
+                            <input type="text" id="lastName" placeholder="Doe" required>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email Address</label>
+                        <input type="email" id="email" placeholder="francis@example.com" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="subject">Subject</label>
+                        <select id="subject" required>
+                            <option value="">Select a topic...</option>
+                            <option value="join">I want to join the club</option>
+                            <option value="sponsor">Sponsorship inquiry</option>
+                            <option value="collab">Collaboration proposal</option>
+                            <option value="speak">I want to speak at an event</option>
+                            <option value="question">General question</option>
+                            <option value="other">Something else</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" placeholder="Tell us what's on your mind..." required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary" style="width: 100%; justify-content: center;">
+                        <span>📨</span> Send Message
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="section">
+        <div class="section-header">
+            <span class="section-label">Common Questions</span>
+            <h2>Frequently Asked <span>Questions</span></h2>
+        </div>
+        <div class="cards-grid" style="grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));">
+            <div class="card">
+                <h3>❓ How do I join the club?</h3>
+                <p style="color: var(--gray); margin-top: 12px;">Simply fill out the contact form above selecting "I want to join the club" as the subject, or attend any of our weekly Tuesday meetups. Membership is free and open to all students and professionals interested in technology.</p>
+            </div>
+            <div class="card">
+                <h3>❓ Do I need prior coding experience?</h3>
+                <p style="color: var(--gray); margin-top: 12px;">Not at all! We welcome members of all skill levels. We have dedicated beginner tracks, mentorship programs, and study groups to help you get started regardless of your background.</p>
+            </div>
+            <div class="card">
+                <h3>❓ How can my company sponsor an event?</h3>
+                <p style="color: var(--gray); margin-top: 12px;">We'd love to partner with you! Please reach out through the contact form with "Sponsorship inquiry" selected. We offer various sponsorship tiers with branding, recruiting, and speaking opportunities.</p>
+            </div>
+            <div class="card">
+                <h3>❓ Are events open to non-members?</h3>
+                <p style="color: var(--gray); margin-top: 12px;">Most of our workshops and speaker events are open to the public. Hackathons and exclusive networking events are typically members-only. Check the event description for details.</p>
+            </div>
+            <div class="card">
+                <h3>❓ Can I propose a project or event?</h3>
+                <p style="color: var(--gray); margin-top: 12px;">Absolutely! We encourage member-led initiatives. Use the contact form with "Collaboration proposal" or bring your idea to our weekly meetups. The leadership team reviews all proposals monthly.</p>
+            </div>
+            <div class="card">
+                <h3>❓ Is there a membership fee?</h3>
+                <p style="color: var(--gray); margin-top: 12px;">No, membership is completely free. We are funded through university support, corporate sponsorships, and community donations. All resources, workshops, and events are provided at no cost to members.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-grid">
+            <div class="footer-brand">
+                <a href="index.html" class="logo">
+                    <div class="logo-icon">⚡</div>
+                    <span>Tech Innovation Club</span>
+                </a>
+                <p>Empowering the next generation of technologists through collaboration, innovation, and hands-on learning.</p>
+            </div>
+            <div class="footer-links">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="events.html">Events</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-links">
+                <h4>Resources</h4>
+                <ul>
+                    <li><a href="#">Documentation</a></li>
+                    <li><a href="#">Tutorials</a></li>
+                    <li><a href="#">GitHub</a></li>
+                    <li><a href="#">Blog</a></li>
+                </ul>
+            </div>
+            <div class="footer-links">
+                <h4>Community</h4>
+                <ul>
+                    <li><a href="#">Discord</a></li>
+                    <li><a href="#">Slack</a></li>
+                    <li><a href="#">Forum</a></li>
+                    <li><a href="#">Newsletter</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>© 2026 Tech Innovation Club. All rights reserved.</p>
+            <div class="footer-social">
+                <a href="#">𝕏</a>
+                <a href="#">in</a>
+                <a href="#">GH</a>
+                <a href="#">YT</a>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        const menuToggle = document.getElementById('menuToggle');
+        const navLinks = document.getElementById('navLinks');
+        menuToggle.addEventListener('click', () => {
+            navLinks.classList.toggle('active');
+        });
+        document.querySelectorAll('.nav-links a').forEach(link => {
+            link.addEventListener('click', () => {
+                navLinks.classList.remove('active');
+            });
+        });
+
+        // Form submission handler
+        document.querySelector('form').addEventListener('submit', function(e) {
+            e.preventDefault();
+            alert(`Thanks for reaching out! We'll get back to you within 24 hours.`);
+            this.reset();
+        });
+    </script>
+</body>
+</html>
